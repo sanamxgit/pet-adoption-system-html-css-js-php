@@ -40,3 +40,7 @@ function searchProduct() {
   document.getElementById("dog").addEventListener("click", function() {
     window.location.href = "buy.html";
   });
+
+  document.getElementById("adoptMe").addEventListener("click", function() {
+    window.location.href = "order.html";
+  });
