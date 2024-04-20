@@ -1127,3 +1127,9 @@
   color: var(--color-white);
   font-family: var(--font-epilogue);
 }
+
+@media only screen and (min-width: 1200px) {
+  .landing-page-1 {
+    zoom: 125%; 
+  }
+}

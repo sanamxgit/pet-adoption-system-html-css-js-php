@@ -292,11 +292,21 @@
   height: 11.8px;
   object-fit: contain;
 }
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Pacifico'), local('Pacifico-Regular'), url(https://fonts.gstatic.com/s/pacifico/v15/FwZY7-Qmy14u9lezJ-6H6MmBp0u-.woff2) format('woff2');
+}
+
 .kaluu1 {
   position: absolute;
   top: -1px;
   left: 10px;
+  font-family: 'Pacifico', cursive;
 }
+
+
 .streamlinearrow-curvy-up-down {
   position: absolute;
   top: 23px;
@@ -821,4 +831,10 @@
   background-color: var(--color-white);
   height: 1424px;
   overflow: hidden;
+}
+
+@media only screen and (min-width: 1200px) {
+  .buy {
+    zoom: 125%; 
+  }
 }

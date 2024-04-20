@@ -67,3 +67,36 @@ document.addEventListener("DOMContentLoaded", function() {
   // Start the slideshow when the page loads
   startSlideshow();
 });
+
+
+// Get a reference to the "Adopt" button in the navbar
+const adoptButton = document.querySelector('.home[href="/buy.html"]');
+
+// Add an event listener to the "Adopt" button
+adoptButton.addEventListener('click', function(event) {
+    // Prevent the default behavior of the link
+    event.preventDefault();
+
+    // Get a reference to the category section
+    const categorySection = document.getElementById('category');
+
+    // Scroll to the category section
+    categorySection.scrollIntoView({ behavior: 'smooth' });
+});
+
+const productButton = document.querySelector('.home[href="/buy.html"]');
+
+// Add an event listener to the "Adopt" button
+productButton.addEventListener('click', function(event) {
+    // Prevent the default behavior of the link
+    event.preventDefault();
+
+    // Get a reference to the category section
+    const categorySection = document.getElementById('productDisplay');
+
+    // Scroll to the category section
+    categorySection.scrollIntoView({ behavior: 'smooth' });
+});
+
+
+
